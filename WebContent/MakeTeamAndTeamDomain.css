@@ -1,0 +1,120 @@
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+* { box-sizing: border-box; font-family: Noto Sans KR, sans-serif; }
+.border { border: 1px solid rgb(255, 255, 255); }
+.fl { float: left; }
+.fr { float: right; }
+body {
+    background-color: #d0cfd4;
+}
+img {
+    width: 25px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+#div_header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    min-width: 780px;
+    height: 60px;
+    padding: 13px 20px 14px 154px;
+    background-color: #FFF;
+    line-height: 33px;
+    z-index: 100;
+}
+#div_main {
+    width: 1920px;
+    height: 697px;
+}
+#div_content {
+    height: 571px;
+    margin-top: 50px;
+}
+h2 {
+    text-align: center;
+    margin-top: 70px;
+}
+#border {
+    border: 1px solid #00c473;
+    margin: 30px auto;
+    width: 80px;
+}
+fieldset {
+    width: 390px;
+    height: 169px;
+    margin: 0px auto;
+    margin-top: 170px;
+}
+h5 {
+    color: #777;
+    font-size: .9375rem;
+    font-weight: 500;
+    color: #333;
+    padding-bottom: .5rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+input[type='text']:focus {
+	outline: 1px solid #00c473;
+}
+input[type='text']{
+	text-align: left;
+    width: 390px;
+    height: 46px;
+    border: 1px solid #d2d2d2;
+/*     padding: 15px 12px; */
+    border-radius: 4px;
+    padding: 0 .6875rem;
+    font-size: 1rem;
+}
+#h5_team_domain {
+    margin-top: 10px;
+}
+#div_sub_fix {
+    margin-top: 488px;
+    margin-right: 757px;
+    display: table-cell;
+    width: 6rem;
+    border-color: #d2d2d2;
+    border-width: 1px 1px 1px 0;
+    border-style: solid;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-radius: 0 4px 4px 0;
+    height: 2.875rem;
+    line-height: 2.75rem;
+    background: #f1f4f8;
+    text-indent: .625rem;
+    color: #728b98;
+    font-weight: 400;
+    font-size: .875rem;
+}
+#input_team_domain:focus {
+	outline: 1px solid #00c473;
+}
+#input_team_domain {
+    text-align: left;
+    width: 294px;
+    height: 46px;
+    border: 1px solid #d2d2d2;
+/*     padding: 15px 12px; */
+    border-radius: 4px;
+    padding: 0 .6875rem;
+    font-size: 1rem;
+}
+#div_button {
+    text-align: center;
+}   
+#button {
+    border-radius: 6px;
+    color: #fff;
+    background-color: #99e7c7;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    width: 15%;
+    padding: 10px 0;
+    border: none;
+}
